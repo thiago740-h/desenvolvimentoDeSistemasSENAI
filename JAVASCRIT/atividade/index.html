@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>João Papo-de-Pescador</title>
+</head>
+<body>
+    <h1>João Papo-de-Pescador</h1>
+    <label>Digite o peso de peixes (kg): </label>
+    <input type="number" id="peso"><br><br>
+    <button onclick="calcularMulta()">Verificar Multa</button>
+    <p id="resultado"></p>
+
+    <script>
+        function calcularMulta() {
+            let P = Number(document.getElementById("peso").value);
+            let E = 0;
+            let M = 0;
+
+            if (P > 50) {
+                E = P - 50;
+                M = E * 4;
+            }
+
+            document.getElementById("resultado").innerText = 
+                "Excesso: " + E + " kg | Multa: R$ " + M;
+        }
+    </script>
+</body>
+</html>
