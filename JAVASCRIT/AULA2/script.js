@@ -1,0 +1,4 @@
+
+while(condicional){
+console.log("*")
+}
