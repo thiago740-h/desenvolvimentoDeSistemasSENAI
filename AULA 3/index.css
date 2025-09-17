@@ -1,0 +1,26 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+body{
+    background-color: rgb(194, 208, 255);
+}
+
+.pai{
+    width: 800px;
+    height: 400px;
+    background-color: brown;
+    padding: 2px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.caixa{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    margin: 20px;
+}
