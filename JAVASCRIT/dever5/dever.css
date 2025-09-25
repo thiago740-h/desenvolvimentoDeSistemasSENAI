@@ -1,0 +1,13 @@
+* {
+    background-color: black;
+}
+
+header{
+    height: 50px;
+    background-color: aqua;
+    color: black;
+}
+
+img{
+    height: 50px;
+}
