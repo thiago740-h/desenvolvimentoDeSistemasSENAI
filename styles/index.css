@@ -1,0 +1,38 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+table {
+    width: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(199, 231, 231);
+    border-collapse: collapse;
+
+}
+
+td {
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+
+}
+
+th:hover,
+td:hover {
+    background-color: rgb(31, 31, 156);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+th {
+    border: 1px solid black;
+    background-color: rgb(31, 31, 156);
+    color: white;
+    transition: 0.5s;
+}
+
+thead {
+    position: sticky;
+    top: 0px;
+    
+}
